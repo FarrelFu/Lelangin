@@ -1,0 +1,116 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#Header {
+    position: sticky;
+    width: 100%;
+    height: 50px;
+    background: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F5EFE7;
+}
+
+.Menu {
+    flex: 1;
+    text-align: center;
+    
+}
+    .Menu ul {
+        padding-left: 1100px;
+    }
+
+        .Menu ul li {
+            list-style: None;
+            display: inline-block;
+            padding: 0px 30px;
+            padding-left: 50px;
+        }
+
+        .Menu ul li a {
+            text-decoration: none;
+            color: gray;
+            transition: 0.1s;
+        }
+
+            .Menu ul li a:hover {
+                color: #74c3ed;
+            }
+
+nav img {
+    width: 1px;
+    height: 1px;
+    margin-left: 20px;
+}
+
+#lg {
+    font-family: 'Inria Serif';
+    font-weight: 400;
+    font-size: 24px;
+    padding-left: 15px;
+    color: #74c3ed;
+}
+
+#badan {
+    position: center;
+    min-height : 100vh;
+    height: 100%;
+    width: 100%;
+    background: #ECECEC;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-bottom: 100px;
+}
+
+#DataList1 table {
+    background-color: white;
+    margin-bottom : 50px;
+}
+
+.lul {
+    width: 100%;
+    height: 60px;
+    background-color: #74c3ed;
+    position: relative;
+}
+
+    .lul table {
+       margin-left:60%;
+      
+    }
+#oi {
+    margin-right: 10px;
+    padding-bottom: 75px;
+    font-size:20px;
+    color : white;
+}
+#ImageButton2 {
+    margin-bottom: 75px;
+}
+
+#TextBox1 {
+    margin-bottom: 75px;
+    font-size : 20px;
+}
+
+.footer {
+    height: 10vh;
+    background-color: #74C3ED;
+    position: relative;
+    align-items: center;
+}
+
+    .footer p {
+        text-align: center;
+        color: white;
+        padding-top: 25px;
+        margin-top: 0;
+    }

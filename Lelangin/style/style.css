@@ -1,0 +1,260 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#Header {
+    position: sticky;
+    width: 100%;
+    height: 50px;
+    background: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FFEEBB;
+}
+
+.Menu {
+    flex: 1;
+    text-align: center;
+    
+    padding-left : 1200px;
+}
+
+.Menu ul li {
+    list-style: None;
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.Menu ul li a {
+     text-decoration: none;
+     color: gray;
+     transition: 0.1s;
+ }
+
+    .Menu ul li a:hover {
+        color: #74c3ed;
+    }
+
+nav img {
+    width: 1px;
+    height: 1px;
+    margin-left: 20px;
+    
+}
+
+#lg {
+    font-family: 'Inria Serif';
+    font-weight: 400;
+    font-size: 24px;
+    padding-left: 15px;
+    color: #74c3ed;
+}
+
+.head {
+    min-height: 80vh;
+    width: 100%;
+    background-color: #9AC5F4;
+}
+
+.logo{
+    margin-left:60%;
+    
+}
+
+.logo img{
+    height : 600px;
+    width : 600px;
+}
+
+
+
+
+#think {
+    font-family: 'Kotta One';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    padding-left: 5%;
+    padding-top: 50px;
+    color: #FFEEBB;
+}
+
+#bid {
+    font-family: 'Kotta One';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    padding-left: 5%;
+    color: white;
+}
+
+#pay {
+    font-family: 'Kyiv*Type Titling';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    padding-left: 5%;
+    color: #FFEEBB;
+}
+
+.button-bg {
+    margin-left: 50px;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    border-radius : 5px;
+    position: absolute;
+    width: auto;
+    left: 2%;
+    padding: 3px 10px;
+    text-align: left;
+    font-family: 'Cormorant SC';
+    font-size: 24px;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.button-bg:hover {
+    background-color: white;
+    color: #9AC5F4;
+    border: black;
+    box-shadow: white;
+    
+}
+
+.badi {
+    width: 100%;
+    height: 1500px;
+    background-color: #9AC5F4;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+    
+
+.ltgbr {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+
+.latest {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 300px;
+    
+}
+
+.joedoel h1 {
+    text-decoration: none;
+    font-family: 'Kyiv*Type Titling';
+    font-size: 50px;
+    color: #FFEEBB;
+}
+
+   
+
+
+
+.joedoel p {
+    padding-bottom: 100px;
+    font-family: 'Kotta One';
+   
+    color: white;
+}
+
+
+
+.gbrLatest {
+    flex-basis: 40%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    background-color : white;
+}
+
+    .gbrLatest img {
+        width: 100%;
+    }
+
+.lay {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.7s;
+}
+
+    .lay:hover {
+        background: rgba(0, 0, 0, 0.5);
+        ;
+    }
+
+
+    .lay h3 {
+        width: 100%;
+        font-weight: 500;
+        color: white;
+        font-family: 'Kotta One';
+        font-size: 30px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        opacity: 0;
+        transition: 0.7s;
+    }
+
+    .lay:hover h3 {
+        bottom: 50%;
+        opacity: 1;
+    }
+
+    .lay p {
+        width: 100%;
+        color: white;
+        font-size: 20px;
+        font-family: 'Kotta One';
+       
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        opacity: 0;
+        transition: 0.7s;
+    }
+
+    .lay:hover p {
+        bottom: 10%;
+        opacity: 1;
+    }
+
+.footer {
+    height: 10vh;
+    background-color: #FFEEBB;
+    position: relative;
+    align-items: center;
+}
+
+    .footer p {
+        text-align: center;
+        color: white;
+        padding-top: 25px;
+        margin-top: 0;
+    }
+
+
+

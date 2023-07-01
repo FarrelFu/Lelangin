@@ -1,0 +1,133 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#Header {
+    position: sticky;
+    width: 100%;
+    height: 50px;
+    background: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F5EFE7;
+}
+
+.Menu {
+    flex: 1;
+    text-align: center;
+    padding-left: 1200px;
+}
+
+    .Menu ul li {
+        list-style: None;
+        display: inline-block;
+        padding: 0px 30px;
+    }
+
+        .Menu ul li a {
+            text-decoration: none;
+            color: gray;
+            transition: 0.1s;
+        }
+
+            .Menu ul li a:hover {
+                color: #74c3ed;
+            }
+
+nav img {
+    width: 1px;
+    height: 1px;
+    margin-left: 20px;
+}
+
+#lg {
+    font-family: 'Inria Serif';
+    font-weight: 400;
+    font-size: 24px;
+    padding-left: 15px;
+    color: #74c3ed;
+}
+.sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lightgray;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    max-width: 1200px;
+    background-color: white;
+    box-shadow: 0 10px 15px rgba(0,0,0, 0.1);
+}
+
+.left {
+    width: 800px;
+}
+
+.form-left {
+    width: 500px;
+    margin: 100px auto;
+}
+
+    .form-left h1 {
+        margin: 20px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 50px;
+    }
+
+    .form-left p {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .form-left img {
+        width: 450px;
+        height: 100%;
+        margin: 20px;
+    }
+
+
+.right {
+    width: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin: 25px;
+    text-align: left;
+}
+
+    .right p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+        margin: 10px;
+        margin-left: 0px;
+    }
+
+    .right button {
+        font-size: 18px;
+        margin-left : 30px;
+    }
+
+
+.form-right {
+    width: 500px;
+    margin: 100px auto;
+    
+}
+
+    .form-right li {
+        text-decoration: none;
+        
+    }
+
